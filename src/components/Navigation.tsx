@@ -20,10 +20,10 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-sunset rounded-full flex items-center justify-center">
+            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
               <Bitcoin className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-bold text-xl text-foreground">Africa Bitcoin</span>
+            <span className="font-bold text-xl text-foreground">BITCOIN MADE SIMPLE</span>
           </Link>
 
           <div className="hidden md:block">
@@ -44,7 +44,7 @@ const Navigation = () => {
           </div>
 
           <div className="hidden md:block">
-            <Button className="bg-gradient-sunset hover:shadow-warm transition-smooth">
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold transition-smooth">
               Donate Bitcoin
             </Button>
           </div>
@@ -74,7 +74,7 @@ const Navigation = () => {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full bg-gradient-sunset hover:shadow-warm transition-smooth">
+                <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth">
                   Donate Bitcoin
                 </Button>
               </div>
